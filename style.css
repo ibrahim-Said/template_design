@@ -1,0 +1,222 @@
+body {}
+
+.navbar-dark {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 30px;
+}
+
+.navbar ul li {
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(15, 240, 154) !important;
+}
+
+.navbar-dark .navbar-nav .navbar-link:focus {
+    color: rgb(15, 240, 154) !important;
+}
+
+.baner {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/computers.png");
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.baner-body h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-shadow: rgba(0, 0, 0, 1);
+}
+
+.baner-body h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-shadow: rgba(0, 0, 0, 1);
+}
+
+.baner-body button {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 1);
+}
+
+#courses {
+    margin: 100px
+}
+
+#courses h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px
+}
+
+#courses p {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#features .svg-inline--fa.fa-w-16 {
+    color: rgb(15, 240, 154) !important
+}
+
+#features h2 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.btn-secondary {
+    background-color: #0ce9a6;
+    color: white;
+    text-transform: uppercase;
+    border-color: aqua
+}
+
+#features {
+    background-color: #e4e3e3;
+    padding-top: 30px;
+    padding-bottom: 50px
+}
+
+.header-section {
+    padding-top: 25px !important;
+    text-transform: uppercase !important;
+    margin-bottom: 15px
+}
+
+.header-hr {
+    width: 60px;
+    height: 5px;
+    background-color: rgb(15, 240, 154) !important;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.resource {
+    color: white;
+    padding: 40px 30px 50px 30px;
+    background-image: linear-gradient(240deg, rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)50%), url(img/apple.png);
+    z-index: -1;
+}
+
+.resource h2 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.resource p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#clients img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px
+}
+
+#clients hr {
+    width: 100%;
+    height: 3px;
+    background-color: #0ce9a6
+}
+
+#clients .svg-inline--fa.fa-w-20,
+#clients .svg-inline--fa.fa-w-16,
+#clients .svg-inline--fa.fa-w-12 {
+    color: rgb(15, 240, 154) !important
+}
+
+#resources .svg-inline--fa.fa-w-20,
+#resources .svg-inline--fa.fa-w-16,
+#resources .svg-inline--fa.fa-w-12 {
+    color: rgb(15, 240, 154) !important
+}
+
+#contact {
+    background-color: rgb(78, 76, 76);
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#contact img {
+    height: 50px;
+    margin-bottom: 30px
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(78, 76, 76);
+    color: white;
+    text-align: center;
+    height: auto;
+    margin: 0;
+    border-top: 1px solid rgb(223, 220, 220);
+    padding: 2px
+}
+
+.footer p {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (max-width:420px) {
+    .baner-body h1 {
+        font-size: 40px;
+    }
+    .baner-body h3 {
+        font-size: 15px;
+    }
+    #courses {
+        margin: 30px
+    }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
